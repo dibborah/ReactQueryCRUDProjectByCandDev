@@ -25,7 +25,7 @@ const PostList = () => {
         posts.map((post) => (
           <div key={post.id} style={{ background: "#777" }}>
             <h4 style={{cursor: "pointer"}} onClick={() => navigate(`/post/${post.id}`)}>{post.title}</h4>
-            <button>Edit</button>
+            <button onClick={() => navigate(`/post/${post.id}/edit`)}>Edit</button>
             <button>Delete</button>
           </div>
         ))}
