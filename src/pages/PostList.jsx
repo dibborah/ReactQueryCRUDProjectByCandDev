@@ -1,7 +1,10 @@
+import AddPost from "../components/AddPost";
+
 const PostList = () => {
   return (
     <div>
-      <h1>PostList</h1>
+      <AddPost/>
+      Lists
     </div>
   );
 };
