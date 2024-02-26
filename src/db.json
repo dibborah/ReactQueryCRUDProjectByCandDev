@@ -1,14 +1,29 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "this is title one",
-            "body": "this is body one"
-        },
-        {
-            "id": 2,
-            "title": "this is title two",
-            "body": "this is body two"
-        }
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "title": "this is title one",
+      "body": "this is body one"
+    },
+    {
+      "id": "2",
+      "title": "this is title two",
+      "body": "this is body two"
+    },
+    {
+      "id": "b43e7987-5498-4374-a970-7eecb317a3e3",
+      "title": "herwihewif",
+      "body": "hweufbbf"
+    },
+    {
+      "id": "1b94f83a-499f-432e-942b-9d0a556c1249",
+      "title": "This is title 4",
+      "body": "This is body 4"
+    },
+    {
+      "id": "e160d9e1-efe0-4a02-b6a0-8d3ebc5681d5",
+      "title": "Testing Title",
+      "body": "Testing body"
+    }
+  ]
 }

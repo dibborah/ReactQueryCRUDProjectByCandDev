@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-const PostForm = () => {
+// eslint-disable-next-line react/prop-types
+const PostForm = ({ onSubmit }) => {
   const [post, setPost] = useState({
     title: "",
     body: "",
@@ -29,7 +30,7 @@ const PostForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(post);
+    onSubmit(post);
     setPost({
       title: "",
       body: "",

@@ -3,7 +3,7 @@ import PostForm from "../components/PostForm";
 const EditPost = () => {
   return (
     <div>
-      <PostForm/>
+      <PostForm />
     </div>
   );
 };
